@@ -1,5 +1,5 @@
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
-body{background:#fff;color:#333;font-size:1rem; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";}
+body{background:#000;color:#333;font-size:1rem; margin:0px;font-family:"SimSun","宋体","Arial Narrow";}
 
 ul,ol{list-style-type:none;}
 select,input,img,select{vertical-align:middle;}
@@ -9,6 +9,40 @@ a:link{color:#fff;cursor:pointer;}
 a:visited{color:#fff;}
 a:hover,a:active,a:focus{color:#fff;text-decoration:none;cursor:pointer;}
 
+/* ----------头部------------- */
+
+
+/* -----------菜单----------- */
 .menu{
+    width:45px;
+    height:100%;
+    position:fixed;
+    left:-40px;
+    z-index:10;
     
 }
+.menu:hover{
+    left:0px;
+}
+.menu ul{
+    width:40px;
+    height:100%;
+    background-color:rgba(9,200,242,0.3);
+    padding:40px 0px;
+}
+.menu ul li{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom:1px solid rgba(9,200,242,0.4);
+    box-shadow:0px 1px 1px rgba(255, 255, 255, 0.5);
+}
+.menu ul li:hover{
+    background-color:rgba(9,200,242,0.4);
+}
+.selected{
+    background-color:rgba(9,200,242,0.4);
+}
+
+/* -------------底部------------ */
