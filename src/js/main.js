@@ -25,12 +25,3 @@ $(function(){
         $(this).addClass("selected");
     })
 })
-
-// 基础数据部分
-function baseNavbar(){
-    var baseNavbar = '<div id="baseNavbar">'+
-    '<ul>'+
-    '</ul>'+
-    '</div>';
-    $("#layer").append(baseNavbar);
-}
